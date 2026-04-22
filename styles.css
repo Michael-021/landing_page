@@ -39,12 +39,26 @@ a {
   font-size: 18px;
 }
 .hero {
-  border: 1px solid red;
   justify-content: space-around;
   display: flex;
   gap: 50px;
   align-items: center;
-  height: 50vh;
+  padding: 50px;
+  height: 400px;
+}
+.hero-image {
+  display: flex;
+  padding: 40px;
+  background-color: #6d747d;
+  color: #d1d5db;
+  height: 200px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  max-width: 500px;
+  flex: 1;
 }
 .hero-content h1 {
   font-size: 48px;
