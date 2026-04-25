@@ -30,6 +30,7 @@ a {
 }
 .logo {
   font-size: 24px;
+  font-weight: 700;
 }
 .logo a {
   color: #fff;
@@ -80,6 +81,34 @@ a {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+}
+.info-section {
+  text-align: center;
+}
+.info-section h2 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+.info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 52px;
+  padding: 50px;
+}
+.info-box {
+  max-width: 150px;
+}
+.info-box p {
+  font-size: 15px;
+  color: #6d747d;
+  margin-top: 10px;
+}
+.info-img {
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+  height: 150px;
+  width: 150px;
 }
 .footer {
   text-align: center;
